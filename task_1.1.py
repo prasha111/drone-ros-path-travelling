@@ -365,7 +365,7 @@ class DroneFly():
 		
 	def get_pose(self,pose):
 
-		#This is the subscriber function to get the whycon poses
+		#This is the subsccriber function to get the whycon poses
 		#The x, y and z values are stored within the drone_x, drone_y and the drone_z variables
 		
 		self.drone_x = pose.poses[0].position.x
